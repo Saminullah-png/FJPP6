@@ -16,15 +16,26 @@ img {
 
 .flex-dev {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
-nav {
-    padding: 10px 2%;
-    justify-content: space-between;
-    box-shadow: 0rem;
-    background-color: white;
+.new-right {
+    padding: 0px 10%;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px rgb(0, 0, 0.2);
+    background-color: #fff;
     position: static;
-    top: 0%;
+    top: 0;
     z-index: 10;
+}
+
+.new-righ img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.new-righ .user-icon {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
 }
